@@ -1,0 +1,25 @@
+name: rnaseq
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bioconductor-genomicalignments
+  - bioconductor-rsubread
+  - bioconductor-rtracklayer
+  - parallel
+  - pip
+  - r-base
+  - r-rcolorbrewer
+  - r-data.table
+  - r-ggplot2
+  - r-ggpmisc
+  - r-xlsx
+  - samtools
+  - seqtk
+  - star
+  - star-fusion
+  - sqlite
+  - pip:
+    - pynvim
+    - jedi
